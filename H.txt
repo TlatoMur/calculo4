@@ -1,0 +1,10 @@
+ejerh:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de C:'),
+    read(C),
+    display('Introduce el valor de D:'),
+    read(D),
+           
+    Y is (((3+C*D)^4)*(C-2))/(1/(5*A-8)),
+    display(Y).
+

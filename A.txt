@@ -1,0 +1,12 @@
+ejera:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de B:'),
+    read(B),
+    display('Introduce el valor de C:'),
+    read(C),
+    display('Introduce el valor de D:'),
+    read(D),
+       
+    Y is (4*C*D-8)/(3*B)+(5*(2*A+C)^4)/(7-D),
+    display(Y).
+

@@ -1,0 +1,11 @@
+ejere:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de B:'),
+    read(B),
+    display('Introduce el valor de C:'),
+    read(C),
+    display('Introduce el valor de D:'),
+    read(D),
+       
+    Y is ((D+A*B)/4)/((5*C)/(3*A+C^3)),
+    display(Y).

@@ -1,0 +1,12 @@
+ejerc:-display('Introduce el valor de A:'),
+    read(A),
+    display('Introduce el valor de B:'),
+    read(B),
+    display('Introduce el valor de C:'),
+    read(C),
+    display('Introduce el valor de D:'),
+    read(D),
+       
+    Y is (3*C*A-B^2)*(9/(5-4*C^2)+D),
+    display(Y).
+
